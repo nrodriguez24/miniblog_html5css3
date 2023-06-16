@@ -1,0 +1,880 @@
+body {
+    background-image: url(fondo.png);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contenedor {
+    width: 960px;
+    height: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    width: 960px;
+    height: 108px;
+    position: fixed;
+    z-index: 100;
+}
+#marca {
+    width: 960px;
+    height: 78px;
+    background-image: url(area42.jpg);
+    border-radius: 40px;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 78px;
+    text-shadow: 5px 5px 15px black;
+}
+#menu {
+    margin: 0;
+    padding: 0;
+    width: 960px;
+    height: 30px;
+    background-color: #242425;
+    list-style-type: none;
+    box-shadow: 1px 1px 5px;
+    border-radius: 15px;
+}
+#menu a {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    border: 0px;
+    font-size: 18px;
+}
+#menu a:hover {
+    background-color: #12b8eb;
+    border-radius: 15px;
+}
+.buscar {
+    float: right;
+    padding: 0px;
+}
+.buscar input {
+    width: 180px;
+    height: 28px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border: 0px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.btn {
+    top: 0;
+    right: 28px;
+    float: right;
+    background: #12b8eb;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#izquierda { 
+    width: 145px;
+    height: 950px;
+
+    float: left;
+    margin-top: 110px;
+}
+#izquierda h3 {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Orbitron', sans-serif;
+}
+.izq {
+    text-align: left;
+    font-size: 13px;
+    padding: 5px 0px;
+    color: silver;
+}
+#descripcion {
+    font-family: 'Special Elite', cursive;
+    text-align: left;
+    font-size: 13px;
+    padding: 5px 0px;
+    color: silver;
+}
+#contenido {
+    width: 640px;
+    height: 950px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 110px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#imagennoticia {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#textonoticia {
+    color: white;
+    text-align: justify;
+}
+b{
+    color: white;
+}
+#link {
+    color: white;
+}
+.cita {
+    top: 0;
+    margin: 0;
+    display: inline-block;
+    width: 640px;
+    height: auto;
+}
+.comillas {
+    margin-top: 10px;
+    float: left;
+    width: 50px;
+    font-size: 50px;
+    height: 50px;
+    color: white;
+}
+.escrito {
+    float: right;
+    width: 580px;
+    height: auto;
+}
+.maps {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    -moz-box-shadow: 0px 0px 30px #12b8eb; 
+    -webkit-box-shadow: 0px 0px 30px #12b8eb; 
+    box-shadow: 0px 0px 30px #12b8eb;
+}
+.audio {
+    text-align: center;
+    margin-top: 6px;
+    position: fixed;
+    margin-left: 170px;
+}
+.targ {
+    margin-top: 70px;
+}
+
+#derecha {
+    width: 150px;
+    height: 950px;
+    float: left;
+    margin-top: 110px;
+}
+h3 {
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+}
+.der {
+    text-align: right;
+    font-size: 11px;
+    padding: 20px 0px;
+}
+.der #link {
+    color: silver;
+}
+footer {
+    width: 960px;
+    height: 80px;
+    background-color: rgba(0, 107, 126, 0.3);
+    color: white;
+    clear: both;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: inline-block;
+}
+footer #link {
+    text-decoration: none;
+}
+.footer1 {
+    width: 320px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    line-height: 15px;
+}
+.footer2 {
+    width: 320px;
+    height: 80px;
+    float: left;
+}
+.redes-container {
+    padding: 0;
+    box-sizing: border-box ;
+    display: inline-block;
+    width: 320px;
+    height: 80px;
+}
+.redes-container ul li {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+}
+.redes-container ul li a {
+    display: block;
+    background-color: black;
+    color: white;
+    line-height: 45px;
+    font-size: 20px;
+    box-shadow: 0 3px 5px 0px black;
+    transition: 0.2s;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 5px 3px 5px 0px black;
+    filter: none;
+}
+:root {
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --pinterest: #bd081c;
+    --youtube: #c4302b;
+}
+.redes-container ul li .facebook:hover {
+    background: var(--facebook);
+}
+.redes-container ul li .instagram:hover {
+    background: var(--instagram);
+}
+.redes-container ul li .twitter:hover {
+    background: var(--twitter);
+}
+.redes-container ul li .pinterest:hover {
+    background: var(--pinterest);
+}
+.redes-container ul li .youtube:hover {
+    background: var(--youtube);
+}
+.footer3 {
+    width: 320px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    color: silver;
+    line-height: 15px;
+}
+.contactostodos{
+    display: block;
+    width: 640px;
+    height: 900px;
+    font-family: 'Tourney', cursive;
+    text-shadow: 7px 7px 3px black;
+}
+.targ {
+    color: white;
+    text-align: center;
+    width: 640px;
+    height: 150px;
+}
+.contac {
+    float: left;
+    width: 50px;
+    height: auto;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.contact1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+    font-size: 30px;
+}
+.telefono {
+    color: white;
+    text-align: center;
+    width: 640px;
+    height: 150px;
+}
+.tel {
+    float: left;
+    width: 50px;
+    height: auto;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.numero {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+    font-size: 30px;
+}
+.correo {
+    color: white;
+    text-align: center;
+    width: 640px;
+    height: 150px;
+}
+.corr {
+    float: left;
+    width: 50px;
+    height: auto;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.mail {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+    font-size: 30px;
+}
+
+
+
+
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px){
+
+    #contenedor {
+        width: 580px;
+        height: auto;
+    }
+    header {
+        width: 100%;
+        height: auto;
+        z-index: 100;
+    }
+    #marca {
+        width: 580px;
+        height: 73px;
+    }
+    h1 {
+        margin: 0;
+        padding: 0;
+        color: black;
+        font-size: 60px;
+        text-align: center;
+        font-weight: 900;
+        line-height: 73px;
+        text-shadow: 5px 5px 15px black;
+    }
+    #menu {
+        margin: 0;
+        padding: 0;
+        width: 580px;
+        height: 70px;
+        background-color: #242425;
+        list-style-type: none;
+        box-shadow: 1px 1px 5px;
+        border-radius: 15px;
+    }
+    #menu a {
+        width: 190.93px;
+        height: 30px;
+        margin-bottom: 10px;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        border: 0px;
+        font-size: 18px;
+    }
+    #menu a:hover {
+        background-color: #12b8eb;
+        border-radius: 15px;
+    }
+    .buscar {
+        float: right;
+        padding: 0px;
+    }
+    .buscar input {
+        width: 156px;
+        height: 28px;
+        font-size: 16px;
+        color: black;
+        outline: none;
+        border: 0px solid black;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .btn {
+        top: 0;
+        right: 0;
+        float: right;
+        background: #12b8eb;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-right: 0px;
+    }
+    #izquierda { 
+        width: 120px;
+        height: auto;
+        float: left;
+        margin-top: 140px;
+    }
+    #izquierda h3 {
+        color: white;
+        font-size: 14px;
+        text-align: left;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .izq {
+        width: 120px;
+        text-align: left;
+        font-size: 13px;
+        padding: 5px 0px;
+        color: silver;
+    }
+    #izq1 {
+        width: 120px;
+        height: auto;
+    }
+    #izq2 {
+        width: 120px;
+        height: auto;
+    }
+    #izq3 {
+        width: 120px;
+        height: auto;
+    }
+    #descripcion {
+        font-family: 'Special Elite', cursive;
+        text-align: left;
+        font-size: 10px;
+        padding: 5px 0px;
+        color: silver;
+    }
+    #contenido {
+        width: 450px;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 0;
+        float: left;
+        margin-top: 140px;
+    }
+    .contactostodos{
+        display: block;
+        width: 450px;
+        height: auto;
+        font-family: 'Tourney', cursive;
+        text-shadow: 7px 7px 3px black;
+    }
+    .targ {
+        color: white;
+        text-align: center;
+        width: 450px;
+        height: 100px;
+    }
+    .contac {
+        float: left;
+        width: 50px;
+        height: auto;
+        color: white;
+        font-size: 50px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .contact1 {
+        margin-top: 10px;
+        margin-left: 10px;
+        color: white;
+        float: left;
+        font-size: 25px;
+    }
+    .telefono {
+        color: white;
+        text-align: center;
+        width: 450px;
+        height: 100px;
+    }
+    .tel {
+        float: left;
+        width: 50px;
+        height: auto;
+        color: white;
+        font-size: 50px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .numero {
+        margin-top: 10px;
+        margin-left: 10px;
+        color: white;
+        float: left;
+        font-size: 25px;
+    }
+    .correo {
+        color: white;
+        text-align: center;
+        width: 450px;
+        height: 150px;
+    }
+    .corr {
+        float: left;
+        width: 50px;
+        height: auto;
+        color: white;
+        font-size: 50px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .mail {
+        margin-top: 10px;
+        margin-left: 10px;
+        color: white;
+        float: left;
+        font-size: 25px;
+    }
+    .maps {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        -moz-box-shadow: 0px 0px 30px #12b8eb; 
+        -webkit-box-shadow: 0px 0px 30px #12b8eb; 
+        box-shadow: 0px 0px 30px #12b8eb;
+    }
+    .audio {
+        text-align: center;
+        margin-top: 20px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+    .targ {
+        margin-top: 25px;
+    }
+    #derecha {
+        border-top: solid 1px white;
+        width: 580px;
+        height: auto;
+        margin-top: 20px;
+    }
+    h3 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .der {
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 150px;
+        display: inline-block;
+        text-align: center;
+        font-size: 13px;
+        padding: 20px 0px;
+    }
+    .der #link {
+        color: silver;
+    }
+    footer {
+        width: 580px;
+        height: 160px;
+        background-color: rgba(0, 107, 126, 0.3);
+        color: white;
+        clear: both;
+        border: 1px solid white;
+        border-radius: 15px;
+        display: inline-block;
+    }
+    footer #link {
+        text-decoration: none;
+    }
+    .footer1 {
+        width: 280px;
+        height: 80px;
+        float: left;
+        text-align: center;
+        line-height: 15px;
+    }
+    .footer2 {
+        width: 300px;
+        height: 80px;
+        float: left;
+    }
+    .redes-container {
+        padding: 0;
+        box-sizing: border-box ;
+        display: inline-block;
+        width: 290px;
+        height: 80px;
+    }
+    .redes-container ul li {
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+    }
+    .redes-container ul li a {
+        display: block;
+        background-color: black;
+        color: white;
+        line-height: 45px;
+        font-size: 20px;
+        box-shadow: 0 3px 5px 0px black;
+        transition: 0.2s;
+    }
+    .redes-container ul:hover a{
+        filter: blur(2px);
+    }
+    .redes-container ul li a:hover{
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 5px 3px 5px 0px black;
+        filter: none;
+    }
+    :root {
+        --facebook: #3b5999;
+        --instagram: #e4405f;
+        --twitter: #55acee;
+        --pinterest: #bd081c;
+        --youtube: #c4302b;
+    }
+    .redes-container ul li .facebook:hover {
+        background: var(--facebook);
+    }
+    .redes-container ul li .instagram:hover {
+        background: var(--instagram);
+    }
+    .redes-container ul li .twitter:hover {
+        background: var(--twitter);
+    }
+    .redes-container ul li .pinterest:hover {
+        background: var(--pinterest);
+    }
+    .redes-container ul li .youtube:hover {
+        background: var(--youtube);
+    }
+    .footer3 {
+        width: 580px;
+        height: 80px;
+        float: left;
+        text-align: center;
+        color: silver;
+        line-height: 15px;
+    }
+    
+
+}
+
+
+
+@media handheld, screen and (max-width: 599px) {
+
+
+    #contenedor {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+        height: auto;
+    }
+    header {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 100;
+    }
+    #marca {
+        width: 100%;
+        height: auto;
+        border-radius: 4em;
+    }
+    h1 {
+        color: black;
+        font-size: 3em;
+        line-height: auto;
+    }
+    #menu {
+        position: relative;
+        margin-top: 0.5em;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        background-color: none;
+        border-radius: 1em;
+    }
+    #menu a {
+        background-color: #242425;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: 1.5em;
+        margin-bottom: 0.2em;
+        display: block;
+        line-height: 1.5em;
+        border: 0px;
+        font-size: 0.9em;
+        border-radius: 0.7em;
+    }
+    #menu a:hover {
+        border-radius: 0.7em;
+    }
+    .buscar {
+        display: none;
+    }
+    .buscar input {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    .buscar:hover input {
+        display: none;
+    }
+    .buscar input:focus {
+        display: none;
+    }
+    #izquierda { 
+        display: none;
+    }
+    #contenido {
+        width: 100%;
+        height: auto;
+        margin-left: 1em;
+        margin-right: 0;
+        margin-top: auto;
+    }
+    .contactostodos{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: -7%;
+    }
+    .targ {
+        width: 100%;
+        height: auto;
+        margin-top: 1em;
+    }
+    .contac {
+        float: left;
+        width: 15%;
+        height: auto;
+        font-size: 200%; 
+        margin-top: 0.5em;
+        margin-left: 0;
+    }
+    .contact1 {
+        margin-top: -1%;
+        margin-left: 0;
+        font-size: 150%;
+    }
+    .telefono {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .tel {
+        float: left;
+        width: 15%;
+        height: auto;
+        font-size: 200%; 
+        margin-top: 0.5em;
+        margin-left: 0;
+    }
+    .numero {
+        margin-top: -1%;
+        margin-left: 0;
+        font-size: 150%;
+    }
+    .correo {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .corr {
+        float: left;
+        width: 15%;
+        height: auto;
+        font-size: 200%; 
+        margin-top: 0.5em;
+        margin-left: 0;
+    }
+    .mail {
+        margin-top: -1%;
+        margin-left: 0;
+        font-size: 150%;
+    }
+    .maps {
+        display: none;
+    }
+    .audio {
+        display: none;
+    }
+    #derecha {
+       display: none;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 1em;
+    }
+    .footer1 {
+        width: 100%;
+    }
+    .footer2 {
+        width: 100%;
+        height: auto;
+    }
+    .redes-container {
+        width: 100%;
+        height: auto;
+    }
+    .redes-container ul li {
+        width: 17%;
+        height: auto;
+    }
+    .redes-container ul li a {
+        height: auto;
+        line-height: auto;
+        font-size: 1em;
+    }
+    .footer3 {
+        width: 100%;
+    }
+
+
+}
